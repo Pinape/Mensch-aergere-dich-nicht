@@ -2,7 +2,7 @@
 
 ## Beschreibung
 
-Wir Programmieren das Brettspiel "Mensch ärgere dich nicht" in zunächst vereinfachter Form. 
+Wir programmieren das Brettspiel "Mensch ärgere dich nicht" in zunächst vereinfachter Form. 
 
 **Zweck**
 
