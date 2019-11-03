@@ -1,4 +1,8 @@
 /* styles.css für Mensch ärgere dich nicht */
+*{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 h1{
     text-transform: uppercase;
 }
