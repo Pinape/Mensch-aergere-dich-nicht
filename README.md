@@ -9,7 +9,7 @@ Wir programmieren das Brettspiel "Mensch ärgere dich nicht" in zunächst verein
 Das Teamprojekt entsteht als Studienarbeit für das Fach Web Engineering. 
 
 ## Status
-Derzeit befinden wir uns in der Planung des Projekts. 
+Der aktuelle Status unseres Projekts kann auf git.lisa-okezie.de eingesehen werden.
 
 ## Credits
 
