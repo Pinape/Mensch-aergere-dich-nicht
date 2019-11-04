@@ -1,14 +1,82 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
-  <meta charset="utf-8">
-  <title>Mensch ärgere dich nicht</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="styles.css" media="screen"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen">
+    <title>MädN - Online</title>
+    <meta name="description" content="Online Mensch ärgere dich nicht im Rahmen einer Studienarbeit.">
 </head>
 
 <body>
-<h1>Mensch ärgere dich nicht</h1>
-<p>Hier soll später unsere Studienarbeit erscheinen.</p>
+    <div id="wrapper">
+        <div id="game">
+            <div id="fieldsection">
+                <div id="field">
+
+                    <img src="https://upload.wikimedia.org/wikipedia/de/thumb/0/01/Dontworry.svg/1200px-Dontworry.svg.png" alt="field">
+
+                </div>
+                <div id="characters">
+
+                    <!--red game characters-->
+
+                    <div id="rC1" class="gameCharakter"></div>
+                    <div id="rC2" class="gameCharakter"></div>
+                    <div id="rC3" class="gameCharakter"></div>
+                    <div id="rC4" class="gameCharakter"></div>
+
+                    <!--yellow game characters-->
+
+                    <div id="yC1" class="gameCharakter"></div>
+                    <div id="yC2" class="gameCharakter"></div>
+                    <div id="yC3" class="gameCharakter"></div>
+                    <div id="yC4" class="gameCharakter"></div>
+
+                    <!--blue game characters-->
+
+                    <div id="bC1" class="gameCharakter"></div>
+                    <div id="bC2" class="gameCharakter"></div>
+                    <div id="bC3" class="gameCharakter"></div>
+                    <div id="bC4" class="gameCharakter"></div>
+
+                    <!--green game characters-->
+
+                    <div id="gC1" class="gameCharakter"></div>
+                    <div id="gC2" class="gameCharakter"></div>
+                    <div id="gC3" class="gameCharakter"></div>
+                    <div id="gC4" class="gameCharakter"></div>
+                </div>
+            </div>
+
+            <div id="preferences">
+                <h1>Mensch ärgere dich nicht</h1>
+                <div id="newGame">
+                    <select name="Color Selection">
+                        <option value="blue">Blue</option>
+                        <option value="green">Green</option>
+                        <option value="red">Red</option>
+                        <option value="yellow">Yellow</option>
+                    </select>
+
+                    <label>
+                        <input type="checkbox">
+                        Compulsion to move
+                    </label>
+
+                    <button>NEW GAME</button>
+
+                </div>
+
+                <div id="gameActions">
+                    <button>DICE</button>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
 </body>
+
 </html>
